@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+}#main{
+    overflow-x: hidden;
+    position: relative;
+}#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}#nav{
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+}#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(247, 143, 8);
+}#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
